@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+main{
+ display: flex;
+ align-items: center;
+ justify-content:space-around;
+ flex-flow:wrap;
+  gap: 19px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  width: 50%;
+ 
+ /* Definindo uma altura fixa para todos os cards */
+  transition: 0.5s;
+  padding: 10px; /* Para dar um espaço entre os elementos dentro do card */
+
+  
+
+}
+.cards:hover{
+ box-shadow: 1px 1px 50px rosybrown;
+
+
+}
+.cards img{
+width: 100%;
+
+box-sizing: border-box;
+object-fit: cover;
+
+}
